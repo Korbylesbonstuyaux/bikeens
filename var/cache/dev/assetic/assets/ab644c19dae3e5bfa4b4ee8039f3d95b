@@ -1,0 +1,296 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px !important;
+}
+
+/* PART : Have a Bike */
+
+#have-bike {
+    margin-top: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#have-bike .info, #have-bike .contest {
+    display: inline-block;
+    width: 49.7%;
+
+    vertical-align: top;
+}
+
+#have-bike .info {
+    margin-bottom: 20px;
+}
+
+#have-bike .contest img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#have-bike button {
+    width: 200px;
+    height: 40px;
+
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background-color: white;
+
+    text-align: center;
+
+    margin: auto;
+    display:block;
+}
+
+#have-bike .info p {
+    height: 360px;
+}
+
+@media (max-width: 800px) {
+
+    #have-bike .info p {
+        height: auto;
+    }
+
+    #have-bike .info, #have-bike .contest {
+        display: inline-block;
+        width: 100%;
+
+        vertical-align: top;
+    }
+}
+
+/* END PART : Have a Bike*/
+
+/* PART : Rent a Bike */
+
+#rent-bike {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #03585D;
+
+    color: white;
+}
+
+#rent-bike .step {
+    width: 24.7%;
+
+    display: inline-block;
+    text-align: center;
+
+    vertical-align: top;
+}
+
+#rent-bike .step .info {
+    height: 100px;
+}
+
+#rent-bike .step .glyphicon {
+    color: #FAC54B;
+    font-size: 50px;
+}
+
+
+#rent-bike .step .title-step {
+    font-size: 20px;
+}
+
+#rent-bike .step hr {
+    width: 80%;
+    background-color: white;
+    border: 2px solid white;
+}
+
+#rent-bike .step p {
+    color: #FAC54B;
+}
+
+@media (max-width: 1200px) {
+
+    #rent-bike .step {
+        width: 49.7%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    #rent-bike .step {
+        width: 100%;
+    }
+}
+
+/* END PART : Rent a Bike*/
+
+/* PART : Need a Bike */
+
+#need-bike {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#need-bike .info, #need-bike .map {
+    display: inline-block;
+    width: 49.7%;
+
+    vertical-align: top;
+}
+
+#need-bike .info {
+    margin-bottom: 20px;
+}
+
+#need-bike .map img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 800px) {
+
+    #need-bike .info, #need-bike .map {
+        display: inline-block;
+        width: 100%;
+
+        vertical-align: top;
+    }
+}
+
+/* END PART : Need a Bike*/
+
+/* PART : Why rent a Bike */
+
+#why-rent-bike {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #FAC54B;
+
+    color: black;
+}
+
+#why-rent-bike .step {
+    width: 33%;
+
+    display: inline-block;
+    text-align: center;
+
+    vertical-align: top;
+}
+
+#why-rent-bike .step .info {
+    height: 100px;
+}
+
+#why-rent-bike .step .glyphicon {
+    color: #03585D;
+    font-size: 50px;
+}
+
+
+#why-rent-bike .step .title-step {
+    font-size: 20px;
+}
+
+#why-rent-bike .step hr {
+    width: 80%;
+    background-color: black;
+    border: 2px solid black;
+}
+
+#why-rent-bike .step p {
+    color: #03585D;
+}
+
+@media (max-width: 1200px) {
+
+    #why-rent-bike .step {
+        width: 49.7%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    #why-rent-bike .step {
+        width: 100%;
+    }
+}
+
+/* END PART : Why rent a Bike*/
+
+/* PART : Security */
+
+#security {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#security .info, #security .map {
+    display: inline-block;
+    width: 49.7%;
+
+    vertical-align: top;
+}
+
+#security .info {
+    margin-bottom: 20px;
+}
+
+#security .info .type {
+    height: 30px;
+    border-bottom: 2px solid #0E9898;
+    margin-bottom: 20px;
+}
+
+#security #owner {
+    margin-left: 10px;
+}
+
+#security .info .type div{
+    display: inline-block;
+}
+
+#security .info .type div.selected{
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+#security .map img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 800px) {
+
+    #security .info, #security .map {
+        display: inline-block;
+        width: 100%;
+
+        vertical-align: top;
+    }
+}
+
+/* END PART : Security */

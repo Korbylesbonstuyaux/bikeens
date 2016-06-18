@@ -1,0 +1,120 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* PART : Have a Bike */
+
+#have_bike {
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#have_bike .info, #have_bike .contest {
+    display: inline-block;
+    width: 49.7%;
+
+    vertical-align: top;
+}
+
+#have_bike .info {
+    margin-bottom: 20px;
+}
+
+#have_bike .contest img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#have_bike button {
+    width: 200px;
+    height: 40px;
+
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background-color: white;
+
+    text-align: center;
+
+    margin: auto;
+    display:block;
+}
+
+#have_bike .info p {
+    height: 360px;
+}
+
+@media (max-width: 800px) {
+
+    #have_bike .info p {
+        height: auto;
+    }
+
+    #have_bike .info, #have_bike .contest {
+        display: inline-block;
+        width: 100%;
+
+        vertical-align: top;
+    }
+}
+
+/* END PART : Have a Bike*/
+
+/* PART : Rent a Bike */
+
+#rent_bike {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    background-color: #03585D;
+
+    color: white;
+}
+
+#rent_bike h2 {
+    color: white;
+}
+
+#rent_bike .step {
+    width: 24.7%;
+
+    display: inline-block;
+    text-align: center;
+
+    vertical-align: top;
+}
+
+#rent_bike .step .info {
+    height: 100px;
+}
+
+#rent_bike .step .glyphicon {
+    color: #FAC54B;
+    font-size: 50px;
+}
+
+
+#rent_bike .step .title-step {
+    font-size: 20px;
+}
+
+#rent_bike .step hr {
+    width: 80%;
+    background-color: white;
+    border: 2px solid white;
+}
+
+#rent_bike .step p {
+    color: #FAC54B;
+}
+
+/* END PART : Rent a Bike*/

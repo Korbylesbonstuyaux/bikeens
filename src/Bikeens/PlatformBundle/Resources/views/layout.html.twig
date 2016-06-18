@@ -1,0 +1,21 @@
+{# src/Bikeens/PlatformBundle/Resources/views/layout.html.twig #}
+
+{% extends "::layout.html.twig" %}
+
+{% block title %}
+    Comment cela fonctionne ? - {{ parent() }}
+{% endblock %}
+
+{% block body %}
+
+    {# On définit un sous-titre commun à toutes les pages du bundle, par exemple #}
+    <div class="container">
+        <h1>La location de vélos sur Bikeens, c’est très simple !</h1>
+    </div>
+
+
+    {# On définit un nouveau bloc, que les vues du bundle pourront remplir #}
+    {% block bikeensplatform_body %}
+    {% endblock %}
+
+{% endblock %}

@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+}
+
+#have_bike {
+
+}
+
+#have_bike .info, #have_bike .contest {
+    display: inline-block;
+    width: 49%;
+}

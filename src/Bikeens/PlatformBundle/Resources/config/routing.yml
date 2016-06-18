@@ -1,0 +1,9 @@
+bikeens_platform_homepage:
+    path:     /
+    defaults: { _controller: BikeensPlatformBundle:Info:index }
+
+bikeens_platform_info:
+    path:     /info
+    defaults: { _controller: BikeensPlatformBundle:Info:index }
+
+

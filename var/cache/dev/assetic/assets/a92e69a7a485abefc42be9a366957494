@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#have_bike {
+    margin-top: 40px;
+}
+
+#have_bike .info, #have_bike .contest {
+    display: inline-block;
+    width: 48%;
+
+    vertical-align: top;
+}
+
+#have_bike .info {
+    margin-bottom: 20px;
+}
+
+#have_bike .contest img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#have_bike button {
+    width: 200px;
+    height: 40px;
+
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background-color: white;
+
+    text-align: center;
+
+    margin: auto;
+    display:block;
+}
+
+#have_bike .info p {
+    height: 360px;
+}
+
+@media (max-width: 800px) {
+
+    #have_bike .info p {
+        height: auto;
+    }
+
+    #have_bike .info, #have_bike .contest {
+        display: inline-block;
+        width: 100%;
+
+        vertical-align: top;
+    }
+}

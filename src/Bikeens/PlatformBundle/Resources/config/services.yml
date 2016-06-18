@@ -1,0 +1,4 @@
+services:
+#    bikeens_platform.example:
+#        class: Bikeens\PlatformBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
